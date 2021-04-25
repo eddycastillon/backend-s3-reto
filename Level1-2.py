@@ -1,3 +1,5 @@
+scores = []
+
 def validate_value( score):
     try:
         val = int(score)
@@ -6,16 +8,15 @@ def validate_value( score):
         return False
     return  True
 
-
-scores = []
-for score in range(1,6,1):
-    score = input(f"Ingrese nota {score}:\n")
-
+def request_value ( iteration):
+    score = input(f"Ingrese nota: { iteration}\n")
     if validate_value(score) is True:
         scores.append(int(score))
     else:
-        pass
-    
+        request_value(iteration)
+
+for i in range(1,6,1):
+    request_value(i)
     
 average_scrores = sum(scores)/len(scores)
 
