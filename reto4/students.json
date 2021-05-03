@@ -1,0 +1,38 @@
+[
+    {
+        "id": "9503ee41-3940-4348-a6a9-e1f8bff66320",
+        "name": "Ricardo",
+        "scores": [
+            10,
+            11,
+            12
+        ],
+        "max_score": 12,
+        "min_score": 10,
+        "average_score": 11
+    },
+    {
+        "id": "89e421f6-fe5d-4202-b590-c854d10a4425",
+        "name": "Peter",
+        "scores": [
+            10,
+            11,
+            12
+        ],
+        "max_score": 12,
+        "min_score": 10,
+        "average_score": 11
+    },
+    {
+        "id": "15995710-de71-4c22-89c4-c372bf863d0f",
+        "name": "Yesi",
+        "scores": [
+            10,
+            13,
+            15
+        ],
+        "max_score": 15,
+        "min_score": 10,
+        "average_score": 12
+    }
+]

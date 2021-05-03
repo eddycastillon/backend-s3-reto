@@ -20,7 +20,8 @@ def request_value ( iteration):
         else:
             pass
         if input(f"Do yo want enter other note y/n?") == "y":
-            print(scores)
+            #print(scores)
+            pass
         else:
             break
 
